@@ -1,7 +1,7 @@
 # Basics
 
 ##### Primitive Variables (Immutable)
-```
+```python
 # STRING
 s = "hello world" # string
 for c in s:
@@ -27,7 +27,7 @@ print(type(x)) # prints the type
 ```
 
 ##### Lists 
-```
+```python
 # BASICS
 l = [1, "hello world", 10.312]
 a.append(10)
@@ -50,7 +50,7 @@ arr = [0] * n
 dp = [[0 for x in n] for x in m] # m by n dp array
 ```
 ##### Dictionary 
-```
+```python
 d = {}
 cars = {"brand" : "Ford", "year" : 2000}
 cars["colour"] = "blue"
@@ -65,7 +65,7 @@ for k, v in d.items():
 ```
 
 #### Sets, Stacks, and Queues
-```
+```python
 # Set
 s = set()
 s.add("banana")
@@ -82,7 +82,7 @@ print(d.popleft())
 ```
 
 #### Prioirty Queue
-```
+```python
 from queue import PriorityQueue
 minHeap = PriorityQueue()
 minHeap.put(10)

@@ -1,7 +1,7 @@
 # Basics
 
 ##### Variable Arguments and Unpacking (Immutable)
-```
+```python
 # Unpacking to arguments
 def foo(a, b, c):
     return a + b + c
@@ -29,14 +29,14 @@ print(concatenate(a="read ", b="Python"))
 ```
 
 ##### Pass by Reference vs Value
-```
+```python
 # Pass by Value: When primitive or immutable varaibles (int, string, tuple) are passed over, the data is copied over
 # Pass by Reference: When mutable data is passed over , the reference is copied over and the changes affect the original data 
 # Note for pass by reference: When want to pass mutalbe data by value, call func(l.copy()) instead of func(l)
  ```
 
 ##### Deep copy vs Shallow 
-```
+```python
 # Basics
 l = ['a', 'b', 'c']
 a = l
